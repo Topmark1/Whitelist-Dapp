@@ -192,6 +192,16 @@ export default function HomePage() {
       connectWallet();
     }
   }, [walletConnected]);
+  // const updateMembers = async () => {
+  //   try {
+  //     await getNumberOfWhitelisted();
+  //   } catch (err) {
+  //     console.error(err);
+  //   }
+  // };
+  // useEffect(() => {
+  //    updateMembers();}, []); the user need to sign in to ask anything from the blockchain as it takes gas, so memeber count cant update instantly`
+
   return (
     <div>
       <div className="main p-10">
